@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tobia Sacchetto — Informatica</title>
+<meta name="description" content="Portfolio di Tobia Sacchetto, studente di Informatica. Tesi su Random Forest e immagini satellitari per il conteggio automatico di piante.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="s-nav">
+  <div class="wrap">
+    <a href="#top" class="brand">Tobia Sacchetto<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">Chi sono</a></li>
+      <li><a href="#project">Tesi</a></li>
+      <li><a href="#contact">Contatti</a></li>
+    </ul>
+    <div class="nav-icons">
+      <a class="icon-btn" href="https://github.com/Tob1a" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.3 3.5 1 .11-.79.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.48 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z"/></svg>
+      </a>
+      <a class="icon-btn" href="https://www.linkedin.com/in/tobiasacchetto" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM.5 8.75h8.9V23.5H.5V8.75Zm14.3 0h-8.5V23.5h8.5v-7.6c0-2 .84-3.3 2.5-3.3 1.85 0 2.7 1.24 2.7 3.3v7.6H23V15c0-4.2-2.24-6.15-5.23-6.15-2.4 0-3.47 1.33-4.07 2.27h-.06V8.75h.16Z"/></svg>
+      </a>
+      <a class="icon-btn" href="mailto:tobia.sacchetto@edu.unife.it" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4.5" width="20" height="15" rx="1.5"/><path d="m3 6 9 7 9-7"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="s-hero section" id="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Studente di Informatica · Università di Ferrara</span>
+        <h1 class="hero-title">Insegno alle macchine a <span class="accent">riconoscere</span> le piante dallo spazio.</h1>
+        <p class="hero-sub">Sono Tobia, studente triennale di Informatica. Mi occupo di machine learning applicato a problemi concreti — in questo momento, contare alberi da frutto analizzando immagini satellitari multispettrali.</p>
+        <div class="hero-cta">
+          <a href="#project" class="btn btn-primary">Guarda la tesi</a>
+          <a href="#contact" class="btn btn-ghost">Scrivimi</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="class-field-wrap">
+          <div class="class-field" id="classField" aria-hidden="true"></div>
+          <div class="field-readout">
+            <span>BANDE: <b>NIR · SWIR</b></span>
+            <span>MODELLO: <b>RANDOM FOREST</b></span>
+          </div>
+        </div>
+        <div class="field-legend">
+          <span><i class="i-veg"></i>pianta</span>
+          <span><i class="i-soil"></i>suolo</span>
+          <span><i class="i-water"></i>acqua</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <span class="eyebrow">Chi sono</span>
+        <p class="about-lead" style="margin-top:18px;">Studio informatica, ma quello che mi interessa davvero è cosa succede quando i dati incontrano il mondo reale.</p>
+      </div>
+      <div class="about-body">
+        <p>Sono al terzo anno del corso di laurea in Informatica. Mi sono avvicinato al machine learning durante il percorso di studi e ho scelto di portarlo su un problema pratico per la tesi: riconoscere e contare automaticamente le piante in un terreno agricolo a partire da immagini satellitari.</p>
+        <p>Lavoro principalmente in Python, con un occhio di riguardo per tutto ciò che riguarda l'analisi dei dati e la classificazione — dalle foreste casuali ai modelli di regressione, passando per gli strumenti GIS per visualizzare e annotare le immagini.</p>
+        <div class="chip-row">
+          <span class="chip">Python</span>
+          <span class="chip">scikit-learn</span>
+          <span class="chip">QGIS</span>
+          <span class="chip">Machine Learning</span>
+          <span class="chip">LaTeX</span>
+          <span class="chip">Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECT ================= -->
+  <section class="section" id="project">
+    <div class="wrap">
+      <div class="project-head">
+        <div>
+          <span class="eyebrow">Tesi di laurea · 2025–2026</span>
+          <h2 class="project-title">Random Forest su immagini satellitari per il riconoscimento e il conteggio di piante</h2>
+        </div>
+        <div class="project-meta">
+          <div>Laureando <b>Tobia Sacchetto</b></div>
+          <div>Relatore <b>Prof. Edoardo Sciavicco</b></div>
+          <div>Università degli Studi di Ferrara</div>
+        </div>
+      </div>
+
+      <div class="project-body">
+        <div class="project-desc">
+          <p>Il progetto affronta un problema concreto di agricoltura di precisione: contare le piante di avocado in un terreno agricolo analizzando immagini satellitari, senza sopralluoghi manuali. Il sistema classifica l'immagine pixel per pixel usando le bande infrarosse dello spettro, poi raggruppa i pixel classificati come "pianta" e ne stima il numero con un modello di regressione lineare.</p>
+          <p>Ho sviluppato e confrontato due varianti: una che sfrutta sia la banda NIR che la SWIR, addestrata su un dataset satellitare ad alta risoluzione (30 cm/pixel), e una più leggera che usa solo la banda NIR, integrando anche un dataset open source per riconoscere una specie aggiuntiva.</p>
+          <p>La versione con entrambe le bande discrimina meglio le specie, mentre entrambi i modelli perdono un po' di precisione sulle classi meno rappresentate nel dataset — un limite tipico quando i dati sono sbilanciati.</p>
+
+          <div class="tag-row">
+            <span class="tag">Random Forest</span>
+            <span class="tag">Regressione lineare</span>
+            <span class="tag">Telerilevamento</span>
+            <span class="tag">Classificazione pixel-based</span>
+          </div>
+
+          <div class="project-links">
+            <a class="btn btn-ghost" href="https://github.com/Tob1a" target="_blank" rel="noopener">Codice su GitHub →</a>
+          </div>
+
+          <details class="refs">
+            <summary>Riferimenti citati in tesi (4)</summary>
+            <ul>
+              <li>Faet, G. M. et al. (2025). <em>Dataset for orange fruit detection from UAV in citrus orchards</em>. Zenodo. <a href="https://doi.org/10.5281/zenodo.17866344" target="_blank" rel="noopener">doi.org/10.5281/zenodo.17866344</a></li>
+              <li>Fu, B. et al. (2017). <em>Comparison of object-based and pixel-based Random Forest algorithm for wetland vegetation mapping</em>. Ecological Indicators, 73, 105–117.</li>
+              <li>Yao, L. et al. (2021). <em>Tree counting with high spatial-resolution satellite imagery based on deep neural networks</em>. Ecological Indicators, 125, 107591.</li>
+              <li>Russell, S. J. &amp; Norvig, P. (2022). <em>Intelligenza artificiale. Un approccio moderno</em>.</li>
+            </ul>
+          </details>
+        </div>
+
+        <div class="readout-card">
+          <div class="readout-row"><span class="label">Modello</span><span class="value dim">NIR + SWIR</span></div>
+          <div class="readout-row"><span class="label">Accuracy (F1)</span><span class="value">0.89</span></div>
+          <div class="readout-row"><span class="label">Note</span><span class="value dim">Migliore discriminazione tra specie</span></div>
+          <div class="readout-row" style="border-top:2px solid var(--line-strong);"><span class="label">Modello</span><span class="value dim">Solo NIR</span></div>
+          <div class="readout-row"><span class="label">Accuracy (F1)</span><span class="value">0.85</span></div>
+          <div class="readout-row"><span class="label">Note</span><span class="value dim">Riconosce anche gli aranci</span></div>
+          <div class="readout-note">La banda SWIR migliora la classificazione in modo sensibile, in linea con l'analisi spettrale preliminare condotta prima dell'addestramento.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section s-contact" id="contact">
+    <div class="wrap">
+      <div class="contact-grid">
+        <h2 class="contact-title">Parliamone.</h2>
+        <div class="contact-links">
+          <a href="mailto:tobia.sacchetto@edu.unife.it">tobia.sacchetto@edu.unife.it <span class="arrow">↗</span></a>
+          <a href="https://github.com/Tob1a" target="_blank" rel="noopener">github.com/Tob1a <span class="arrow">↗</span></a>
+          <a href="https://www.linkedin.com/in/tobiasacchetto" target="_blank" rel="noopener">linkedin.com/in/tobiasacchetto <span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer wrap">
+  <span>© 2026 Tobia Sacchetto</span>
+  <span>Ferrara, Italia</span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
