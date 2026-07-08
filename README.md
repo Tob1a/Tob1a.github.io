@@ -2,7 +2,7 @@
 
 Sito portfolio personale, sviluppato in HTML, CSS e JavaScript puri (nessun framework, nessuna build).
 
-🔗 **Live:** `https://tob1a.github.io` *(aggiorna con l'URL reale una volta pubblicato)*
+🔗 **Live:** `https://tob1a.github.io` 
 
 ---
 
