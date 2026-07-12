@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tob1a.github.io/sitemap.xml
