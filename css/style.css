@@ -6,7 +6,49 @@
    nella tesi per distinguere le piante dal terreno.
    =========================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+/* Font ospitati localmente in /fonts — nessuna richiesta esce verso terzi
+   (in precedenza qui c'era un @import da fonts.googleapis.com, che invia
+   l'IP del visitatore a Google ad ogni caricamento pagina) */
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/space-grotesk-latin-500-normal.woff2') format('woff2');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/space-grotesk-latin-600-normal.woff2') format('woff2');
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/space-grotesk-latin-700-normal.woff2') format('woff2');
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter-latin-400-normal.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter-latin-500-normal.woff2') format('woff2');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter-latin-600-normal.woff2') format('woff2');
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fonts/jetbrains-mono-latin-400-normal.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fonts/jetbrains-mono-latin-500-normal.woff2') format('woff2');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
 
 :root {
   --bg: #0b120f;
@@ -69,6 +111,23 @@ body::before {
 }
 
 a { color: inherit; }
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  z-index: 100;
+  background: var(--veg);
+  color: #10120a;
+  padding: 12px 18px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+.skip-link:focus {
+  left: var(--gutter);
+  top: 12px;
+}
 
 .wrap {
   max-width: var(--container);
